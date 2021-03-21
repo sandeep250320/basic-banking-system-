@@ -1,0 +1,129 @@
+#outer{
+	height:1000px;
+	width:1000px;
+	margin: 0px auto;
+}
+#menuparent{
+	width:1000px;
+	height:70px;
+	background-color:yellow;
+	border-radius:30px 30px 0px 0px;
+}
+#iconbar{
+	width:330px;
+	height:70px;
+	float:left;
+	border-radius:30px;
+	background-color:orange;
+}
+#menubar{
+width:650px; 
+height:70px;
+float:right;
+}
+#outer ul{
+list-style-type:none;
+}
+#outer ul li{
+padding:25px;
+float:left;
+}
+#outer ul li:hover{
+background-color:skyblue;
+}
+#outer ul li a{
+text-decoration:none;
+}
+
+#second{
+	height:700;
+	width:1000px;
+	margin-top:5px;
+    background-image:url(banking1.jpg);
+	background-repeat: no-repeat;
+    background-size: 100%;
+}
+#header{
+	height:95px;
+	width:1000px;
+	background-color:white;
+	color:black;
+	margin-top:5px;
+}
+
+#footer2{
+	width:1000px;
+	height:90px;
+	background-color:black;
+	color:white;
+	margin-bottom:5px;
+	border-top: 5px solid red;
+	
+}
+#history{
+	
+	height:500px;
+	width:1000px;
+}
+.body{
+	background-color:skyblue;
+}
+.one{
+	padding-top:40px;
+	height:280px;
+	width:310px;
+	float:left;
+	margin-left:20px;
+	color:white;
+	background-color:black;
+	
+}
+#login li{
+	list-style-type:none;
+}
+#register{
+	height:400px;
+	width:650px;
+	background-color:red;
+	border-radius:50px;
+	margin-top:30px;
+}
+#register li{
+	list-style-type:none;
+}
+.container{
+	width:100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.intro{
+	background: #f8ee95;
+}
+h1{
+	color: #0a0a0a;
+	font-weight: bold;
+	transition: 0.5s;
+}
+h3{
+	color:#080808;
+}
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#4C4B4B;
+}
